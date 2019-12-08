@@ -1,0 +1,2 @@
+source htmlgod/workspace/scripts/activate
+alias ls='ls -G'
