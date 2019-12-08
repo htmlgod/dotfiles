@@ -10,6 +10,9 @@ My config files
   * [vimgitgutter](https://github.com/airblade/vim-gitgutter)
   * [COC](https://github.com/neoclide/coc.nvim)
 ## Tmux
+  * C-b changed to tilda
+  * vi-style control
+
 ## ZSH
   * alias ls with color
   * auto PATH to node
