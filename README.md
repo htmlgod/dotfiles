@@ -1,7 +1,7 @@
 # dotfiles
 My config files
 
-## VIM
+### VIM
 * Installed Plugins
   * [TheNerdTree](https://github.com/scrooloose/nerdtree)
   * [AutoPairs](https://github.com/jiangmiao/auto-pairs)
@@ -9,14 +9,14 @@ My config files
   * [fugitive](https://github.com/tpope/vim-fugitive)
   * [vimgitgutter](https://github.com/airblade/vim-gitgutter)
   * [COC](https://github.com/neoclide/coc.nvim)
-## Tmux
+### Tmux
   * C-b changed to tilda
   * vi-style control
 
-## ZSH
+### ZSH
   * alias ls with color
   * auto PATH to node
-## TODO list 
+### TODO list 
   * [ ] add autocomplete to zsh
   * [ ] add nodejs path to MacVim
   * [ ] custom settings for MacVim

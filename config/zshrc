@@ -1,2 +1,3 @@
 source htmlgod/workspace/scripts/activate
 alias ls='ls -G'
+alias tree='tree -C'

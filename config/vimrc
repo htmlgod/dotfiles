@@ -11,24 +11,26 @@ Plug 'jiangmiao/auto-pairs'
 "Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'itchyny/landscape.vim'
 call plug#end()	
 
 "settings
 syntax on
 set ruler
-set number relativenumber
+set number
+"set number relativenumber
 
 set noexpandtab
 set tabstop=4
-
+set shiftwidth=0
 set noswapfile
 "set noshowmode
 set title
 set cmdheight=1
 "set laststatus=2
-
+set signcolumn=yes
+set showcmd
 set hlsearch
 set incsearch
 set cursorline
