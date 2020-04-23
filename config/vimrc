@@ -1,34 +1,31 @@
-if has("gui_macvim")
-	"let &t_SI.="\e[6 q" 
-	"let &t_SR.="\e[4 q" 
-	"let &t_EI.="\e[2 q" 
-	"add NODE path	
-	highlight Comment ctermfg=green
-endif
+"Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'jiangmiao/auto-pairs'
-"Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'itchyny/landscape.vim'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'endel/vim-github-colorscheme'
+Plug 'AlessandroYorba/Sierra'
 call plug#end()	
 
 "settings
-syntax on
+syntax enable
 set ruler
 set number
 "set number relativenumber
-
+set encoding=utf-8
 set noexpandtab
 set tabstop=4
 set shiftwidth=0
 set noswapfile
-"set noshowmode
-set title
+set noshowmode
+"set title
 set cmdheight=1
-"set laststatus=2
+set laststatus=2
 set signcolumn=yes
 set showcmd
 set hlsearch
@@ -36,30 +33,33 @@ set incsearch
 set cursorline
 set ai
 set cin
-
+set cinoptions=g-1
 set wrap linebreak nolist
 set textwidth=80
-
 set t_Co=256
-
-"USE HJKL MORON!!!
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
+"set termguicolors
 
 colorscheme landscape 
 
+"vim-cpp-enhanced-highlight
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+
 "ColorColumn
-"set colorcolumn=80
+"set colorcolumn=140 "80 "110
 "highlight ColorColumn ctermbg=darkgray
 
 "lightline
-"let g:lightline = {
-"      \ 'colorscheme': 'landscape'
-"      \ }
+let g:lightline = {
+			\    'colorscheme': 'landscape'
+			\}
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
 inoremap <C-j> <down>
 inoremap <C-k> <up>
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
