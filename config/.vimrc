@@ -2,6 +2,10 @@
 "Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
+"->autocomplete
+if has("gui_running")
+	Plug 'Valloric/YouCompleteMe'
+endif
 "->filemanager
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 "->complete brackets () [] etc
