@@ -1,4 +1,5 @@
-cp -iv $HOME/.vimrc config/vimrc
-cp -iv $HOME/.zshrc config/zshrc
-cp -iv $HOME/.tmux.conf config/tmux.conf
+cp -iv $HOME/.vimrc config/.vimrc
 
+git add config/.vimrc
+git commit -m "$(date +"%d-%m-%Y")"
+git push origin master
