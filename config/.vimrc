@@ -70,8 +70,12 @@ set textwidth=80
 "Colors and colorschemes
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 "->colorscheme Sierra 
-let g:sierra_Sunset = 1
+"let g:sierra_Sunset = 1
 colorscheme sierra 
+"->colorscheme landscape 
+"colorscheme landscape 
+"->colorscheme github
+"colorscheme github
 "->colorcolumn
 "set colorcolumn=140 "80 "110
 "highlight ColorColumn ctermbg=darkgray
@@ -91,9 +95,14 @@ set laststatus=2
 "->enable colouring
 set t_Co=256
 "->lightline colourscheme (powerline by default)
-""let g:lightline = {
-"			\    'colorscheme': 'landscape'
-"			\}
+"->landscape for landscape
+"->seoul256 for sierra
+"->one for github
+let g:lightline = {
+"\    'colorscheme': 'landscape'
+\    'colorscheme': 'seoul256'
+"\    'colorscheme': 'one'
+\}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 "vim-gitgutter
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
