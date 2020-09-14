@@ -14,6 +14,10 @@ My config files
   * [landscape](https://github.com/itchyny/landscape.vim)
   * [Sierra](https://github.com/AlessandroYorba/Sierra)
   * [vim-github](https://github.com/endel/vim-github-colorscheme)
+## ZSH
+* Features
+  * ls colourful output
+  * alias for g++
 ### Install
  ```bash
  # if you don't have vim-plug installed
