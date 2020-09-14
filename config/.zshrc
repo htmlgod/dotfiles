@@ -5,3 +5,7 @@ alias g++='g++ --std=c++1z'
 #https://geoff.greer.fm/lscolors/
 export LSCOLORS='bxfxcxdxbxegedabagacad'
 export CLICOLOR=1
+#prompt colors
+autoload -U promptinit
+promptinit
+PROMPT="$%n %~ >"
