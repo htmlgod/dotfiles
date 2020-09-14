@@ -9,7 +9,7 @@ My config files
   * [fugitive](https://github.com/tpope/vim-fugitive)
   * [vimgitgutter](https://github.com/airblade/vim-gitgutter)
   * [vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
- * Colorschemes
+* Colorschemes
   * [landscape](https://github.com/itchyny/landscape.vim)
   * [Sierra](https://github.com/AlessandroYorba/Sierra)
   * [vim-github](https://github.com/endel/vim-github-colorscheme)
